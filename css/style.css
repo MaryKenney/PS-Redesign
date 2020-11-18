@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=PT+Mono&display=swap');
 
 /* 
-http://www.colorbox.io/#steps=5#hue_start=31#hue_end=20#hue_curve=easeInQuad#sat_start=69#sat_end=90#sat_curve=easeOutQuad#sat_rate=130#lum_start=94#lum_end=75#lum_curve=easeInQuad#minor_steps_map=0
+https://colorbox.io/?c0=%26p%24s%24%3D9%26p%24h%24st%24%3D0%26p%24h%24e%24%3D0%26p%24h%24c%24%3Deqo%26p%24sa%24st%24%3D0.08%26p%24sa%24e%24%3D1%26p%24sa%24r%24%3D1%26p%24sa%24c%24%3Deqo%26p%24b%24st%24%3D1%26p%24b%24e%24%3D0%26p%24b%24c%24%3Deqti%26o%24n%24%3DBlue%26o%24ms%24%3D3%2C0%2C1%2C7%26o%24ro%24%3Dcw%26o%24minorStep%24%3D4
 */
 
 *,:before, :after {
@@ -472,6 +472,7 @@ div[class$="-12"]{background-color: #8C0097;}
 
 /* Header Styles */
 header {
+    background-color: black;
     padding: 1rem;
     margin-bottom: 2.618rem;
 }
@@ -491,7 +492,7 @@ nav {
     background-position: 0 0;
     background-size: contain;
     background-color: transparent; */
-    background: url("../img/FooBlah-Logo.svg") no-repeat 0 0/contain transparent;
+    background: url("../img/ps-logo.webp") no-repeat 0 0/contain transparent;
     text-indent: -9999999px;
     height: 2rem;
     flex: 0 0 calc(100% - 3rem);
@@ -500,7 +501,7 @@ nav {
 
 .navbar-toggler {
     border: 0 none;
-    background-color: #BF4000;
+    background-color: #b90b0b;
     color: #ffffff;
     width: 2rem;
     height: 2rem;
@@ -564,12 +565,12 @@ nav {
 .navbar .dropdown ul a:active,
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul a:visited {
-    background-color: #D55700;
-    color: #ffffff;
+    background-color: #b90b0b;
+    color: #000000;
 }
 
 .navbar .dropdown ul a:hover {
-    background-color: #e56b00;
+    background-color: #ef3232;
 }
 
 @media screen and (min-width: 768px){
@@ -622,18 +623,18 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
     font-size: 4.236em; /* 4.236 * html font size */
     margin-bottom: 1.618rem;
-    color: #BF4000;
+    color: #b90b0b;
 }
 
 h2, .h2 {
     font-size: 2.618em;
     line-height: 1.25em;
-    color: #C34F00;
+    color: #e01b1b;
 }
 
 h3, .h3 {
     font-size: 1.618em;
-    color: #CC6000;
+    color: #ef3232;
 }
 
 h4, .h4 {
@@ -669,15 +670,15 @@ a:link,
 a:active,
 a:hover,
 a:visited {
-    color:#EE7E0A;
+    color:#b90b0b;
 }
 
 a:hover {
-    color: #E56B00;
+    color: #ef3232;
 }
 
 mark {
-    background-color:#F08819;
+    background-color:#f34242;
     color: white;
 }
 
@@ -975,7 +976,7 @@ a.btn.btn-primary:link,
 a.btn.btn-primary:active,
 a.btn.btn.btn-primary:hover,
 a.btn.btn-primary:visited {
-    background-color: #D55700;
+    background-color: #b90b0b;
     color: #ffffff;
 }
 
@@ -989,13 +990,13 @@ a.btn.btn-secondary:link,
 a.btn.btn-secondary:active,
 a.btn.btn.btn-secondary:hover,
 a.btn.btn-secondary:visited {
-    background-color: #E56B00;
+    background-color: #e01b1b;
     color: #ffffff;
 }
 
 .btn.btn-secondary:hover,
 a.btn.btn-secondary:hover {
-    background-color: #CC5F00;
+    background-color: #ef3232;
 }
 
 .btn.btn-tertiary,
@@ -1011,7 +1012,7 @@ a.btn.btn-tertiary:visited {
 
 .btn.btn-secondary:hover,
 a.btn.btn-secondary:hover {
-    border-bottom-color: #D55700;
+    border-bottom-color: #f34242;
 }
 
 .btn.btn-sm,
@@ -1049,7 +1050,6 @@ a.btn-lg {
 
 .wide-image {
     width: 100%;
-    padding-bottom: 56.25%;
 }
 
 .squared img,
@@ -1298,7 +1298,8 @@ textarea {
     min-height: 50vh;
     margin-top: -1.618rem;
     margin-bottom: 2.618rem;
-    border-bottom: 6px solid #773fb5;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
 }
 
 .full-width-header .description {
@@ -1362,7 +1363,7 @@ textarea {
 /* Footer */
 
 footer {
-    background-color: #444444;
+    background-color: #000000;
     font-size: 0.9rem;
     color: #ffffff;
     margin-top: 5rem;
@@ -1377,7 +1378,8 @@ footer .main-footer {
 }
 
 footer .main-footer h3 {
-    color: #E56B00;
+    color: #ef3232;
+
 }
 
 @media screen and (max-width: 767px){
@@ -1415,7 +1417,7 @@ footer .main-footer address a:hover
 }
 
 footer .legal {
-    background-color: #222222;
+    background-color: #5a0202;
     text-align: center;
 }
 
