@@ -1033,6 +1033,15 @@ a.btn-lg {
     font-size: 1.618rem;
 }
 
+
+/* PS Buttons */
+
+ .round {
+    border-radius: 50px;
+}
+
+/* End of PS Buttons */
+
 /* End of Button Styles */
 
 /* Image Styles */
