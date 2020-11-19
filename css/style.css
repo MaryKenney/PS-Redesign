@@ -1363,16 +1363,17 @@ textarea {
 .mapouter { 
     position:relative;
     text-align:right;
-    padding: 1rem;
-    height:600px;
-    width:600px;
+    padding: 2rem;
+    margin-left: 2rem;
+    height: 400px;
+    width: 400px;
     }
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:600px;
-    width:600px;
+    height: 400px;
+    width: 400px;
     }
 
 /*End of map styles*/
