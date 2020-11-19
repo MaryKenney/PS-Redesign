@@ -30,6 +30,7 @@ body {
     color: #333333;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
+    background-color: #dbdbdb;
 }
 
 /* Grid System */
@@ -1218,7 +1219,7 @@ fieldset {
 }
 
 fieldset legend {
-    color: #53236c;
+    color: #5a0202;
     font-weight: 700;
     font-family: 'Goldman', cursive, 'Times New Roman', serif;   
 }
@@ -1265,14 +1266,13 @@ fieldset h3 {
 }
 
 select {
-    background-color: white;
+    background-color: transparent;
 }
 
 input, 
 select,
 option,
 textarea {
-    font-weight: bold;
     background-color: transparent;
 }
 
@@ -1444,4 +1444,20 @@ footer .legal {
     padding: 3rem;
     font-size: 1.3rem;
     width: 100%;
+  }
+
+  .menu {
+      background-color: white;
+      border: 2px solid black;
+      margin-top: 50px;
+  }
+
+ span {
+     float: right;
+     padding-right: 25px;
+     font-weight: bold;
+  }
+
+  .title {
+      text-align:center;
   }
