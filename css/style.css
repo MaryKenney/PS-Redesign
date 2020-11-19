@@ -34,22 +34,6 @@ body {
 
 /* Grid System */
 
-/*
-div[class$="-1"]{background-color: #FCA4E7;}
-div[class$="-2"]{background-color: #F97EDD;}
-div[class$="-3"]{background-color: #F55DD4;}
-div[class$="-4"]{background-color: #F140CD;}
-div[class$="-5"]{background-color: #EB27C8;}
-div[class$="-6"]{background-color:#E413C3;}
-div[class$="-7"]{background-color:#DB04C0;}
-div[class$="-8"]{background-color: #D000BD;}
-div[class$="-9"]{background-color:#C400BA;}
-div[class$="-10"]{background-color: #B600B5;}
-div[class$="-11"]{background-color: #A100A7;}
-div[class$="-12"]{background-color: #8C0097;}
-*/
-/* .container {background-color: #FCA4E7;}
-.container-fluid {background-color:#F97EDD;} */
 
 .container, .container-fluid {
     width: 100%;
