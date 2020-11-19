@@ -1364,6 +1364,7 @@ textarea {
     position:relative;
     text-align:right;
     margin-left: 2rem;
+    margin-bottom: 1rem;
     height: 500px;
     width: 500px;
     }
