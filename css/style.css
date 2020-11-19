@@ -1358,6 +1358,25 @@ textarea {
 
 /* End of Full Width Header */
 
+/*Map Styles*/
+
+.mapouter { 
+    position:relative;
+    text-align:right;
+    padding: 1rem;
+    height:600px;
+    width:600px;
+    }
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:600px;
+    width:600px;
+    }
+
+/*End of map styles*/
+
 
 
 /* Footer */
