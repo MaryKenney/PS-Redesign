@@ -1208,7 +1208,7 @@ a.btn-lg {
 /* Form */
 
 form {
-    margin-botom: 2.618rem;
+    margin-bottom: 2.618rem;
 }
 
 fieldset {
@@ -1471,6 +1471,7 @@ footer .legal {
 .column-ne {
   float: left;
   width: 25%;
+  padding: 2%;
  
 }
 .column-ne-award{
@@ -1482,7 +1483,30 @@ footer .legal {
 }
 .column-ne p{
   text-align: center;
+  list-style: none;
 }
+.column-ne li{
+    list-style: none;
+    width: 100%;
+}
+.column-ne img{
+    width: 100%;
+    max-height: 380px;
+
+}
+.column-ne ul{
+    width: 100%;
+}
+.column-ne-award li {
+    list-style: none;
+}
+.column-ne-award p{
+    text-align: center;
+}
+.column-ne-award ul{
+    text-align: center;
+}
+
 
 .row-ne:after {
   content: "";
