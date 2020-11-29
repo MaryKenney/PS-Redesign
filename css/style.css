@@ -1467,3 +1467,30 @@ footer .legal {
   .title {
       text-align:center;
   }
+
+.column-ne {
+  float: left;
+  width: 25%;
+ 
+}
+.column-ne-award{
+  float: left;
+  width: 33.3%;
+}
+.column-ne-award p{
+  text-align: center;
+}
+.column-ne p{
+  text-align: center;
+}
+
+.row-ne:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 400px) {
+  .column-ne {
+    width: 100%;
+  }
+}
