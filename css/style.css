@@ -1292,12 +1292,16 @@ textarea {
     margin-top: -1.618rem;
     margin-bottom: 2.618rem;
     background-color: #e8e8e8;
+    
 }
 
 .full-width-header .description {
     max-width: 1200px;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+h1{
+  font-size: 300%;
 }
 
 @media screen and (min-width: 576px){ .full-width-header .description {max-width: 576px; } }
@@ -1505,6 +1509,9 @@ footer .legal {
 }
 .column-ne-award ul{
     text-align: center;
+}
+p{
+  margin: 1.3rem;
 }
 
 
