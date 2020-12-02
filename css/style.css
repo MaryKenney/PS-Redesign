@@ -607,7 +607,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
     font-size: 4.236em; /* 4.236 * html font size */
-    margin-bottom: 1.618rem;
+    margin-bottom: 2rem;
     color: #b90b0b;
 }
 
@@ -1034,6 +1034,7 @@ a.btn-lg {
 .squared,
 .circled {
     width: 100%;
+    padding-bottom: 100%;
 }
 
 .circled {
@@ -1053,7 +1054,7 @@ a.btn-lg {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100;
+    height: 100%;
     object-fit: cover;
     padding-bottom: 1rem;
 }
@@ -1370,6 +1371,16 @@ textarea {
 
 /*End of map styles*/
 
+/*Line styles*/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: .2rem;
+    color: #464646;
+    background-color: #464646;
+  }
+/*End of Line styles*/
 
 
 /* Footer */
