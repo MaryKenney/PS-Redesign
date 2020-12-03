@@ -472,9 +472,9 @@ nav {
 .navbar-brand {
     display: block;
     overflow: hidden;
-    background: url("../img/ps-logo.webp") no-repeat 0 0/contain transparent;
+    background: url("../img/pstlogo.png") no-repeat 0 0/contain transparent;
     text-indent: -9999999px;
-    height: 2rem;
+    height: 6rem;
     flex: 0 0 calc(100% - 3rem);
     max-width: calc(100% - 3rem);
 }
