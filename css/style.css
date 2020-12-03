@@ -1451,7 +1451,7 @@ p{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 900px;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
@@ -1523,6 +1523,7 @@ p{
 .active, .dot:hover {
   background-color: #717171;
 }
+
 
 /* Fading animation */
 .fade {
