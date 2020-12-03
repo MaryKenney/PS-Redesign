@@ -1277,17 +1277,20 @@ h1{
     text-align:right;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    height: 500px;
-    width: 500px;
+    margin-right: 2rem;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
     }
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     padding-bottom: 60%;
     position: relative;
+    margin-right: 2rem;
 
     }
     .gmap_canvas iframe{
@@ -1296,6 +1299,22 @@ h1{
         height: 100%;
         width: 100%;
         position: absolute;
+     
+    }
+    .mapouter{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    
+    }
+    
+    .mapouter iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
     }
 
 /*End of map styles*/
