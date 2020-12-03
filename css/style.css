@@ -472,11 +472,6 @@ nav {
 .navbar-brand {
     display: block;
     overflow: hidden;
-    /* background-image: url("../img/FooBlah-Logo.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: contain;
-    background-color: transparent; */
     background: url("../img/ps-logo.webp") no-repeat 0 0/contain transparent;
     text-indent: -9999999px;
     height: 2rem;
@@ -655,7 +650,7 @@ a:link,
 a:active,
 a:hover,
 a:visited {
-    color:#b90b0b;
+    color:#ffffff;
 }
 
 a:hover {
@@ -1289,8 +1284,8 @@ textarea {
     align-content: center;
     justify-content: center;
     width: 100%;
-    min-height: 40vh;
-    margin-top: -1.618rem;
+    min-height: 30vh;
+    margin-top: -2.618rem;
     margin-bottom: 2.618rem;
     background-color: #e8e8e8;
     
@@ -1408,7 +1403,6 @@ footer .container-fluid {
 
 footer .main-footer {
     padding: 1rem 0;
-    margin-bottom: 1rem;
 }
 
 footer .main-footer h3 {
@@ -1453,6 +1447,7 @@ footer .main-footer address a:hover
 footer .legal {
     background-color: #5a0202;
     text-align: center;
+    margin-bottom: 0;
 }
 
 /* End of Footer */
