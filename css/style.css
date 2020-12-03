@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,700;1,400&family=Righteous&family=Sigmar+One&display=swap');
 
 /* 
 https://colorbox.io/?c0=%26p%24s%24%3D9%26p%24h%24st%24%3D0%26p%24h%24e%24%3D0%26p%24h%24c%24%3Deqo%26p%24sa%24st%24%3D0.08%26p%24sa%24e%24%3D1%26p%24sa%24r%24%3D1%26p%24sa%24c%24%3Deqo%26p%24b%24st%24%3D1%26p%24b%24e%24%3D0%26p%24b%24c%24%3Deqti%26o%24n%24%3DBlue%26o%24ms%24%3D3%2C0%2C1%2C7%26o%24ro%24%3Dcw%26o%24minorStep%24%3D4
@@ -28,7 +28,7 @@ body {
     font-size: 1em; /* 2 * 25px */
     line-height: 1.618em; /* 1.618 * font size of current element */
     color: #333333;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Kufam', Arial, Helvetica, sans-serif;
     font-weight: 400;
     background-color: #dbdbdb;
 }
@@ -593,7 +593,7 @@ img {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Libre Baskerville', Georgia, 'Times New Roman' serif;
+    font-family: 'Righteous', Georgia, 'Times New Roman', serif;
     line-height: 1.618em;
     color: #000000;
     font-weight: 700;
@@ -640,7 +640,7 @@ h6, .h6 {
 }
 
 code {
-    font-family: 'PT Mono', monospace;
+    font-family: 'Righteous', monospace;
     color: crimson;
     font-size: 0.75rem;
     line-height: 1.618em;
@@ -1137,7 +1137,7 @@ fieldset {
 fieldset legend {
     color: #5a0202;
     font-weight: 700;
-    font-family: 'Goldman', cursive, 'Times New Roman', serif;   
+    font-family: 'Kufam', cursive, 'Times New Roman', serif;   
 }
 
 fieldset p,
