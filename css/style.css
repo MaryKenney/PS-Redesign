@@ -1286,6 +1286,16 @@ h1{
     background:none!important;
     height: 500px;
     width: 500px;
+    padding-bottom: 60%;
+    position: relative;
+
+    }
+    .gmap_canvas iframe{
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     }
 
 /*End of map styles*/
