@@ -1313,6 +1313,10 @@ footer .main-footer h3 {
 
 }
 
+footer img{
+    height: 5rem;
+}
+
 @media screen and (max-width: 767px){
     footer .main-footer h3 {
         margin-top: 2rem;
