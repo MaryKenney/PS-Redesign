@@ -18,13 +18,6 @@ body {
     /* Zero out the margin and padding */
     margin: 0;
     padding: 0;
-    /*
-        margin values:
-        1 value = value applied to all sides
-        2 values: 1st value is applied to top and bottom and 2nd value is applied to the left and right
-        3 values = 1st value it applied to the top, the 2nd value is applied to the left and right, and the 3rd value is applied to the bottom
-        4 values: 1st value is applied to the top, the 2nd value is applied to the right, the 3rd value is applied to the bottom and the 4th value is applied to the left (applies values clockwise starting from the top) (T, R, B, L)
-    */ 
     font-size: 1em; /* 2 * 25px */
     line-height: 1.618em; /* 1.618 * font size of current element */
     color: #333333;
@@ -712,11 +705,6 @@ blockquote.blockquote.text-center {
     border-left: 0.5rem none;
 }
 
-blockquote.blockquote.text-right {
-    text-align: right;
-    border-left: 0.5rem none;
-    border-right: 0.5rem solid #777777;
-}
 
 /* End of Blockquotes */
 
@@ -1019,19 +1007,6 @@ a.btn-lg {
 /* End of Image Styles */
 
 
-
-
-/* CV Component */
-
-.cv-header {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: baseline;
-    align-content: baseline;
-    justify-content: space-between;
-}
-
-/* End of CV Component */
 
 /* Sidebar */
 
@@ -1377,7 +1352,7 @@ footer .legal {
       border: 2px solid black;
       margin-top: 50px;
   }
-  
+
   .menu-price {
     float: right;
     padding-right: 25px;
