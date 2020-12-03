@@ -675,53 +675,6 @@ small {
 
 /* End of Font Styles */
 
-/* Table Styles */
-
-table {
-    border-collapse: collapse;
-    /*border-width: 1px;
-    border-style: solid;
-    border-color: black; */
-    border: 1px solid black;
-    width: 100%; 
-    margin-bottom: 2.618rem;
-}
-
-table td, table th {
-    border: 1px solid black;
-    padding: 1rem;
-    vertical-align: top;
-    text-align: left
-}
-
-table th {
-    color: #000000;
-}
-
-table caption{
-    caption-side: bottom;
-    padding: 1rem;
-    font-size: 0.8rem;
-    line-height: 1em;
-    background-color: black;
-    color: #fafafa;
-    text-align: center;
-}
-
-table.stripped th {
-    background-color: #222222;
-    color: #fafafa;
-}
-
-table.stripped tbody tr:nth-child(odd) {
-    background-color: #efefef;
-}
-
-table.stripped caption{
-    background-color: #222222;
-}
-
-/* End Table Styles */
 
 /* Blockquotes */
 
@@ -733,14 +686,15 @@ blockquote.blockquote {
     blockquote.blockquote p {
         margin-top: 0;
         margin-bottom: 1rem;
-        font-size: 1.618rem;
+        font-size: 1.6rem;
         line-height: 1.618em;
-        color: #222222; 
+        color: #5a0202; 
     }
 
     blockquote.blockquote footer.blockquote-footer {
         font-size: 0.95rem;
-        line-height: 1.618em;
+        line-height: 1rem;
+        margin-top: 0;
     }
 
     blockquote.blockquote footer.blockquote-footer:before {
