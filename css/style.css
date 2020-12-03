@@ -1571,3 +1571,9 @@ p{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.menu-price {
+    float: right;
+    padding-right: 25px;
+    font-weight: bold;
+}
